@@ -1,0 +1,233 @@
+﻿[
+    {
+      "id": "1",
+      "name": "潮流女装",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "2",
+      "name": "羽绒服",
+      "picture": "/static/image/category/clothes/jackets.png",
+	  "pic_id":"",
+      "pid": "1"
+    },
+    {
+      "id": "3",
+      "name": "毛呢大衣",
+      "picture": "/static/image/category/clothes/overcoat.jpg",
+	  "pic_id":"",
+      "pid": "1"
+    },
+    {
+      "id": "4",
+      "name": "连衣裙",
+      "picture": "/static/image/category/clothes/dress.png",
+	  "pic_id":"",
+      "pid": "1"
+    },
+    {
+      "id": "5",
+      "name": "食品",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "6",
+      "name": "休闲零食",
+      "picture": "/static/image/category/foods/biscuit.jpg",
+	  "pic_id":"",
+      "pid": "5"
+    },
+    {
+      "id": "7",
+      "name": "生鲜果蔬",
+      "picture": "/static/image/category/foods/tomato.jpg",
+	  "pic_id":"",
+      "pid": "5"
+    },
+    {
+      "id": "8",
+      "name": "饮料汽水",
+      "picture": "/static/image/category/foods/drinks.jpg",
+	  "pic_id":"",
+      "pid": "5"
+    },
+    {
+      "id": "9",
+      "name": "四季茗茶",
+      "picture": "/static/image/category/foods/tea.jpg",
+	  "pic_id":"",
+      "pid": "5"
+    },
+    {
+      "id": "10",
+      "name": "粮油调味",
+      "picture": "/static/image/category/foods/oil.jpg",
+	  "pic_id":"",
+      "pid": "5"
+    },
+    {
+      "id": "11",
+      "name": "珠宝配饰",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "12",
+      "name": "时尚饰品",
+      "picture": "/static/image/category/jewelry/ornaments.jpg",
+	  "pic_id":"",
+      "pid": "11"
+    },
+    {
+      "id": "13",
+      "name": "品质手表",
+      "picture": "/static/image/category/jewelry/watch.jpg",
+	  "pic_id":"",
+      "pid": "11"
+    },
+    {
+      "id": "14",
+      "name": "DIY饰品",
+      "picture": "/static/image/category/jewelry/diy.jpg",
+	  "pic_id":"",
+      "pid": "11"
+    },
+    {
+      "id": "15",
+      "name": "日用百货",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "16",
+      "name": "居家日用",
+      "picture": "/static/image/category/store/towel.png",
+	  "pic_id":"",
+      "pid": "15"
+    },
+    {
+      "id": "17",
+      "name": "个人清洁",
+      "picture": "/static/image/category/store/paper.png",
+	  "pic_id":"",
+      "pid": "15"
+    },
+    {
+      "id": "18",
+      "name": "盆碗碟筷",
+      "picture": "/static/image/category/store/bowl.png",
+	  "pic_id":"",
+      "pid": "15"
+    },
+    {
+      "id": "19",
+      "name": "茶杯茶具",
+      "picture": "/static/image/category/store/cup.png",
+	  "pic_id":"",
+      "pid": "15"
+    },
+    {
+      "id": "20",
+      "name": "收纳整理",
+      "picture": "/static/image/category/store/box.png",
+	  "pic_id":"",
+      "pid": "15"
+    },
+    {
+      "id": "21",
+      "name": "手机数码",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "22",
+      "name": "手机",
+      "picture": "/static/image/category/phone/phone.png",
+	  "pic_id":"",
+      "pid": "21"
+    },
+    {
+      "id": "23",
+      "name": "笔记本",
+      "picture": "/static/image/category/phone/computer.png",
+	  "pic_id":"",
+      "pid": "21"
+    },
+    {
+      "id": "24",
+      "name": "数码配件",
+      "picture": "/static/image/category/phone/headset.png",
+	  "pic_id":"",
+      "pid": "21"
+    },
+    {
+      "id": "25",
+      "name": "平板",
+      "picture": "/static/image/category/phone/flat.png",
+	  "pic_id":"",
+      "pid": "21"
+    },
+    {
+      "id": "26",
+      "name": "相机",
+      "picture": "/static/image/category/phone/camera.png",
+	  "pic_id":"",
+      "pid": "21"
+    },
+    {
+      "id": "27",
+      "name": "户外运动",
+      "picture": "",
+	  "pic_id":"",
+      "pid": "0"
+    },
+    {
+      "id": "28",
+      "name": "运动鞋",
+      "picture": "/static/image/category/motion/shoes.jpg",
+	  "pic_id":"",
+      "pid": "27"
+    },
+    {
+      "id": "29",
+      "name": "球类运动",
+      "picture": "/static/image/category/motion/ball.png",
+	  "pic_id":"",
+      "pid": "27"
+    },
+    {
+      "id": "30",
+      "name": "垂钓用品",
+      "picture": "/static/image/category/motion/fishingrod.png",
+	  "pic_id":"",
+      "pid": "27"
+    },
+    {
+      "id": "31",
+      "name": "运动服",
+      "picture": "/static/image/category/motion/clothes.png",
+	  "pic_id":"",
+      "pid": "27"
+    },
+    {
+      "id": "32",
+      "name": "骑行装备",
+      "picture": "/static/image/category/motion/bicycle.png",
+	  "pic_id":"",
+      "pid": "27"
+    },
+    {
+      "id": "33",
+      "name": "电动车",
+      "picture": "/static/image/category/motion/vehicle.png",
+	  "pic_id":"",
+      "pid": "27"
+    }
+  ]

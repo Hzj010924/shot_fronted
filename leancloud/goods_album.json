@@ -1,0 +1,26 @@
+[
+    {
+      "id": "1",
+      "goods_id": "10",
+	  "pic_id":"",
+      "picture": "/static/image/goods/album/apple1.jpg"
+    },
+    {
+      "id": "2",
+	  "pic_id":"",
+      "goods_id": "10",
+      "picture": "/static/image/goods/album/apple2.jpg"
+    },
+    {
+      "id": "3",
+	  "pic_id":"",
+      "goods_id": "7",
+      "picture": "/static/image/goods/spinach.png"
+    },
+    {
+      "id": "4",
+	  "pic_id":"",
+      "goods_id": "7",
+      "picture": "/static/image/goods/spinach.png"
+    }
+  ]

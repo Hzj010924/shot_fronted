@@ -1,0 +1,52 @@
+@host=bctistfu.lc-cn-n1-shared.com
+@appid=BcTiStFuXgBuWFVbUcs6GiXZ-gzGzoHsz
+@appkey=OHyBMa0JM0kwdCEyVxO3NxBG
+@masterkey=KUwkkeTtXoWldQ3TctphX3Yb
+GET  https://{{host}}/1.1/scan/classes/category HTTP/1.1
+X-LC-Id: {{appid}}
+X-LC-Key: {{masterkey}},master
+Content-Type: application/x-www-form-urlencoded
+
+limit=5
+
+###
+curl -X GET \
+  -H "X-LC-Id: {{appid}}" \
+  -H "X-LC-Key: {{masterkey}},master" \
+  -H "Content-Type: application/json" \
+  -G \
+  --data-urlencode 'where={"id":{"$in":["1"]}}' \
+  https://{{host}}/1.1/classes/goods
+
+
+###
+GET https://{{host}}/1.1/classes/goods  HTTP/1.1
+X-LC-Id: {{appid}}
+X-LC-Key: {{appkey}}
+Content-Type: application/x-www-form-urlencoded
+
+data: 'where={"id":{"$in":[2,3,4]}}'
+
+
+###
+GET https://{{host}}/1.1/classes/goods?where=%7B%22id%22%3A%7B%22%24in%22%3A%5B%221%22%2C%222%22%5D%7D%7D  HTTP/1.1
+X-LC-Id: {{appid}}
+X-LC-Key: {{appkey}}
+Content-Type: application/application/json
+
+
+###
+GET https://{{host}}/1.1/classes/goods?where=%7B%22id%22%3A%221%22%7D  HTTP/1.1
+X-LC-Id: {{appid}}
+X-LC-Key: {{appkey}}
+Content-Type: application/application/json
+
+
+###
+curl -X POST \
+-H "Content-Type: application/json" \
+-H "X-LC-Id: {{appid}}" \
+# -H "X-LC-Key: {{appkey}}" \
+-H "X-LC-Key: {{masterkey}},master" \
+-d '{"username":"demo1","password":"123456"}' \
+https://{{host}}/1.1/login
